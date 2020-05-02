@@ -1,0 +1,277 @@
+body {
+    
+    width: 1200px;
+    height: 200vp;
+    margin-top: 0;
+    margin-left: 70px;
+    padding: 0;
+    background-color: #cbcbcb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100px;
+    background-color: white;
+}
+
+a {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #729fdb;
+
+}
+header img {
+    margin-left: 150px;
+}
+
+.banner-search {
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    width: 1200px;
+    height: 400px;
+}
+
+h2.banner {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+}
+.banner {
+    
+    width: 1200px;
+}
+
+ span {
+     position: absolute;
+     top: 100px;
+     left: 80px;
+     right: 80px;
+     width: 1000px;
+     padding: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    color: white; 
+
+ }
+
+ input {
+     display: block;
+     width: 1000px;
+     margin-top: 30px;
+     margin-left: 80px;
+     border-radius: 8px;
+     border: 0;
+     background-color: #f4f4f4;
+     padding: 10px;
+     
+
+ }
+
+ section.contenedor-grid-popular {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+   
+    width: 900px;
+    height: auto;
+    
+    background-color: white;
+ }
+ .contenedor {
+     
+    display: grid;
+     width: 1200pxpx;
+     background-color: white;
+     height: auto;
+     margin-top: 400px;
+     justify-content: center;
+ }
+
+ .contenedor-grid-popular div:nth-child(2) {
+     grid-column-start: 2;
+     grid-column-end: 4;
+     justify-self: end;
+ }
+
+ h1 {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     font-weight: bold;
+     color: #1f3f68;
+ }
+.descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.autor {
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+     color: #1f3f68;
+}
+.autor-art {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1f3f68;
+
+}
+     
+
+
+.date {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     color: #b7bbc0;
+     padding: 0;
+     margin: 0;
+}
+.date-art {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     color: #b7bbc0;
+     padding: 0;
+     margin: 0;
+}
+.logo-art {
+    display: inline;
+    width: 10px;
+    height: 10px;
+    margin-left: 70px;
+
+}
+
+h3 { 
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     color: #1f3f68;
+
+}
+.logo {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+}
+.contenedor-art {
+    display: grid;
+    width: 1200pxpx;
+    background-color: white;
+    height: 1200px;
+    
+    justify-content: center;
+
+    
+}
+section.contenedor-grid-allarticle {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+    width: 900px;
+    height: 1200px;
+    background-color: white;
+}
+
+h3.ART { 
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     color: #729fdb;
+
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: gray;
+}
+.principal {
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: gray;
+
+}
+
+footer {
+    display: flex;
+    width: 1200px;
+    height: auto;
+    background-color: white;
+}
+footer div.redondeado {
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    margin: 0;
+    background-color: #316099;
+    border-top-right-radius: 30%;
+}
+
+h4 {
+    position: relative;
+    top: 100px;
+    width: 300px;
+    margin: 0;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color:white;
+}
+.descripcion-footer {
+
+    position: relative;
+    top: 200px;
+    width: 500px;
+    margin: 0;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 30px;
+    color:white;
+    opacity: .5;
+
+}
+
+input.input {
+    position: relative;
+    left: 600px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(81, 155, 216);
+    opacity: .8;
+    
+}
+
